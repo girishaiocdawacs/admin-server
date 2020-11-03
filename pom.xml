@@ -15,7 +15,7 @@
 	<description>cloud event consumer standalone</description>
 
 	<properties>
-		<java.version>11</java.version>
+		<java.version>8</java.version>
 		<spring-boot-admin.version>2.3.0</spring-boot-admin.version>
 	</properties>
 
