@@ -85,7 +85,7 @@ jobs:
         echo "-----------------------------------------------"
         kubectl get services -o wide
         echo "-----------------------------------------------"
-        kubectl expose deployment adminserver --type=LoadBalancer --name=clusterip --port 8765
+        #  kubectl expose deployment adminserver --type=LoadBalancer --name=clusterip --port 8765
         echo "-----------------------------------------------"
         kubectl get all
         echo "-----------------------------------------------"
