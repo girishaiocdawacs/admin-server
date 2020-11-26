@@ -81,9 +81,9 @@ jobs:
         ###echo --- >> deployment.yaml # i am new to these things
         ###kubectl create service clusterip adminserver --tcp=8765:8765 --dry-run -o=yaml >> deployment.yaml
         echo "-----------------------------------------------"
-        kubectl apply -f deployment.yaml
+        kubectl apply -f adminserver.yaml
         echo "-----------------------------------------------"
-        cat deployment.yaml
+        cat adminserver.yaml
         echo "-----------------------------------------------"
         kubectl get all
         echo "-----------------------------------------------"
